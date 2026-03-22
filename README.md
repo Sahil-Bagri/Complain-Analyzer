@@ -11,22 +11,41 @@ The Customer Complaint Root-Cause Analyzer is an NLP-based system designed to au
 This project simulates a real-world industry tool used by companies to monitor customer feedback and improve product/service quality.
 
 🔥 Key Features
+
 ✅ Automatic complaint clustering using topic modeling
+
 ✅ Root cause keyword extraction
+
 ✅ Complaint type labeling (Delivery, Refund, App Issues, etc.)
+
 ✅ Named Entity Recognition (NER) for locations & organizations
+
 ✅ Sentence-level analysis for better accuracy
+
 ✅ Word cloud visualization for insights
+
 🧠 NLP Techniques Used
+
 Technique	Purpose
+
 Tokenization	Split text into words
+
 Sentence Segmentation	Handle multiple issues in one complaint
+
 Stopword Removal	Remove unnecessary words
+
 Lemmatization	Normalize words
+
 TF-IDF	Convert text into numerical features
+
 NMF (Topic Modeling)	Cluster complaints
+
 Vocabulary Matching	Label complaint types
+
 NER (spaCy)	Extract entities
+
 Word Cloud	Visualize key issues
+
 📊 Problem Statement
+
 Automatically group customer complaints and identify the root cause and affected entities such as products, locations, and organizations.
